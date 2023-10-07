@@ -1,0 +1,128 @@
+body{
+}
+
+#navbar{
+	overflow: hidden;
+	background-color: black;
+	padding: 25px 0px;
+	position: fixed;
+	width: 100%;
+	top: 0%;
+	transition: 0.4s;
+}
+#navbar a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 25px;
+	border-radius: 5px;
+}
+#navbar #logo{
+	font-size: 35px;
+	font-weight: bold;
+	border: 2px solid white;
+	margin-left: 20px;
+	transition: 0.4s;
+}
+#navbar a:hover{
+	background-color: white;
+	color: black;
+}
+#navbar-right{
+	float: right;
+	margin-right: 25px;
+}
+#image{
+    text-align: center;
+}
+#image img{
+    border-radius: 500px;
+    margin: 150px 150px 50px 150px;
+    border: 5px solid #555;
+    width: 650px;
+    height: 650px;
+}
+.Hobbies{
+    text-align: center;
+}
+.imageicon:nth-child(1){
+	background-image: url('sports.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.imageicon:nth-child(2){
+	background-image: url('anime.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.imageicon:nth-child(3){
+	background-image: url('games.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.imageicon:nth-child(4){
+	background-image: url('movies.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.imageicon:nth-child(5){
+	background-image: url('binance.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.sliderchild{
+	height: 100%;
+	width: 500%;
+	animation: slider infinite 20s;
+}
+.imageicon{
+	height: 100%;
+	width: 20%;
+	background-color: grey;
+	float: left;
+}
+@keyframes slider{
+	18.5%{
+		margin-left: -100%;
+	}
+	27%{
+		margin-left: -100%;
+	}
+	39.5%{
+		margin-left: -200%;
+	}
+	52%{
+		margin-left: -200%;
+	}
+	64%{
+		margin-left: -300%;
+	}
+	72%{
+		margin-left: -300%;
+	}
+	89.5%{
+		margin-left: -400%;
+	}
+	100%{
+		margin-left: -400%;
+	}
+}
+#Achievements_Certificates{
+    text-align: center;
+}
+#Contact{
+    text-align: center;
+}
